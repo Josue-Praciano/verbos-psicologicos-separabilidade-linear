@@ -68,11 +68,15 @@ Para inspecionar o comportamento geométrico e o agrupamento das classes teóric
 * Página: https://www.linkedin.com/in/josue-praciano/
  
 -----
-Artigo: Em andamento
+Artigo: [Separabilidade Linear de Verbos Psicológicos no XLM-RoBERTa-base] (LINK)
 
 ## Referências:
 
 * CANÇADO, Márcia. Verbos Psicológicos: Análise Descritiva dos Dados do Português Brasileiro. Revista de Estudos da Linguagem, v. 4, n. 1, p. 89-114, 1996.
+
+## Como citar:
+
+* PRACIANO, J. D.; SILVA, V. S. Separabilidade Linear de Verbos Psicológicos no XLM-RoBERTa-base. GitHub, 2026. Disponível em: <https://github.com/SEU_USUARIO/SEU_REPOSITORIO>. Acesso em: 9 ago. 2026.
 
 ## Uso de IA Generativa
 Este projeto utilizou o modelo **Gemini 1.5 Pro** (Google) de forma complementar para suporte técnico e desenvolvimento, aplicado nas seguintes tarefas:

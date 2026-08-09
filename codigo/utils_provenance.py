@@ -13,7 +13,7 @@ def generate_complete_pipeline_provenance(
     classifier_name: str = "Support Vector Machine (SVC)",
     classifier_name_2: str = "Logistic Regression",
     researcher_name: str = "Josue David Praciano",
-    output_prov_path: str = "src/pipeline_provenance.json"
+    output_prov_path: str = "código/pipeline_provenance.json"
 ) -> str:
 
     # Define a pasta de outputs dinamicamente com base no tsne_plot_path fornecido
