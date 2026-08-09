@@ -76,7 +76,7 @@ Artigo: [Separabilidade Linear de Verbos Psicológicos no XLM-RoBERTa-base](http
 
 ## Como citar:
 
-* PRACIANO, J. D.; SILVA, V. S. Separabilidade Linear de Verbos Psicológicos no XLM-RoBERTa-base. GitHub, 2026. Disponível em: <https://github.com/Josue-Praciano/verbos-psicologicos-separabilidade-linear>. Acesso em: 9 ago. 2026.
+* PRACIANO, J. D.; SILVA, V. S. Separabilidade Linear de Verbos Psicológicos no XLM-RoBERTa-base. GitHub, 2026. Disponível em: <https://github.com/Josue-Praciano/verbos-psicologicos-separabilidade-linear>. 2026.
 
 ## Uso de IA Generativa
 Este projeto utilizou o modelo **Gemini 1.5 Pro** (Google) de forma complementar para suporte técnico e desenvolvimento, aplicado nas seguintes tarefas:
