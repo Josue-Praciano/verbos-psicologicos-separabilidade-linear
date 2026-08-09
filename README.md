@@ -1,4 +1,4 @@
-![imagens](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/images/PPGI-ufrj-logo.png)
+![imagens](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/imagens/PPGI-ufrj-logo.png)
 
 # Trabalho final em Fundamentos de Ciência de Dados - PPGI/UFRJ
 
