@@ -1,4 +1,4 @@
-![image](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/images/PPGI-ufrj-logo.png)
+![imagens](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/images/PPGI-ufrj-logo.png)
 
 # Trabalho final em Fundamentos de Ciência de Dados - PPGI/UFRJ
 
@@ -36,12 +36,12 @@ O restante do projeto foi estruturado em três etapas principais: extração de 
 ### 1. Extração de Embeddings
 Para a extração das características textuais, utilizou-se o modelo de linguagem pré-treinado **XLM-RoBERTa (base)**. 
 * **Estratégia:** Os embeddings de cada sentença foram gerados através da técnica de ***Mean Pooling* global**, calculando a média aritmética de todos os tokens válidos (desconsiderando os tokens de *padding*) ao longo das **últimas 4 camadas do Transformer**.
-* script disponível em [extracted_features.py](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/src/extracted_features.py)
+* script disponível em [extracted_features.py](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/codigo/extracted_features.py)
 
 ### 2. Classificação Supervisionada
 Com as features consolidadas, o problema foi tratado como uma tarefa de classificação em 5 classes utilizando os algoritmos **SVM (Support Vector Machine) com Kernel Linear** e **Regressão Logística**.
 * **Validação:** Os dados foram divididos na proporção 80/20 (treino/teste) usando amostragem estratificada. Ademais, o processo de treinamento contou com uma **Validação Cruzada de 5 folds (*Stratified K-Fold*)** no conjunto de treino. Adicionalmente, calculou-se o *Silhouette Score* (métrica de cosseno) para avaliar o nível de separabilidade prévia do espaço de features.
-* script disponível em [models.py](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/src/models.py)
+* script disponível em [models.py](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/codigo/models.py)
 
 ### 3. Análise Visual
 Para inspecionar o comportamento geométrico e o agrupamento das classes teóricas, foi desenvolvida uma análise visual bidimensional.
@@ -57,9 +57,9 @@ Para inspecionar o comportamento geométrico e o agrupamento das classes teóric
 -----
 ## Imagens disponibilizadas
 * Grafo de proveniência do projeto
-![image](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/images/pipeline_provenance.png)
+![imagens](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/imagens/pipeline_provenance.png)
 * Gráfico 2d dos embeddinggs via t-SNE
-![image](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/images/visualizacao_embeddings_tsne_controle.png)
+![imagens](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/imagens/visualizacao_embeddings_tsne_controle.png)
 
 -----
 ## Autoria:
@@ -68,7 +68,7 @@ Para inspecionar o comportamento geométrico e o agrupamento das classes teóric
 * Página: https://www.linkedin.com/in/josue-praciano/
  
 -----
-Artigo: [Separabilidade Linear de Verbos Psicológicos no XLM-RoBERTa-base] (LINK)
+Artigo: ![Separabilidade Linear de Verbos Psicológicos no XLM-RoBERTa-base](https://github.com/Josue-Praciano/verbos-psicologicos-separabilidade-linear/blob/main/pdf/Separabilidade%20Linear%20de%20Verbos%20Psicol%C3%B3gicos%20no%20XLM-RoBERTa-base.pdf))
 
 ## Referências:
 
@@ -76,7 +76,7 @@ Artigo: [Separabilidade Linear de Verbos Psicológicos no XLM-RoBERTa-base] (LIN
 
 ## Como citar:
 
-* PRACIANO, J. D.; SILVA, V. S. Separabilidade Linear de Verbos Psicológicos no XLM-RoBERTa-base. GitHub, 2026. Disponível em: <https://github.com/SEU_USUARIO/SEU_REPOSITORIO>. Acesso em: 9 ago. 2026.
+* PRACIANO, J. D.; SILVA, V. S. Separabilidade Linear de Verbos Psicológicos no XLM-RoBERTa-base. GitHub, 2026. Disponível em: <https://github.com/Josue-Praciano/verbos-psicologicos-separabilidade-linear>. Acesso em: 9 ago. 2026.
 
 ## Uso de IA Generativa
 Este projeto utilizou o modelo **Gemini 1.5 Pro** (Google) de forma complementar para suporte técnico e desenvolvimento, aplicado nas seguintes tarefas:
