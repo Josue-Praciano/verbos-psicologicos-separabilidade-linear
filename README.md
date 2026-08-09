@@ -68,7 +68,7 @@ Para inspecionar o comportamento geométrico e o agrupamento das classes teóric
 * Página: https://www.linkedin.com/in/josue-praciano/
  
 -----
-Artigo: ![Separabilidade Linear de Verbos Psicológicos no XLM-RoBERTa-base](https://github.com/Josue-Praciano/verbos-psicologicos-separabilidade-linear/blob/main/pdf/Separabilidade%20Linear%20de%20Verbos%20Psicol%C3%B3gicos%20no%20XLM-RoBERTa-base.pdf))
+Artigo: [Separabilidade Linear de Verbos Psicológicos no XLM-RoBERTa-base](https://github.com/Josue-Praciano/verbos-psicologicos-separabilidade-linear/blob/main/pdf/Separabilidade%20Linear%20de%20Verbos%20Psicol%C3%B3gicos%20no%20XLM-RoBERTa-base.pdf)
 
 ## Referências:
 
